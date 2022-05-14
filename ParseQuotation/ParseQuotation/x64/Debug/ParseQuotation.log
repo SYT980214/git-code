@@ -1,0 +1,327 @@
+﻿生成启动时间为 2022/4/26 14:27:18。
+     1>项目“D:\VSProject\UHQ_SVN\trunk\Sources\tools\ParseQuotation\ParseQuotation\ParseQuotation.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\public /I..\public\google\ /I..\public\public\ /ZI /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Debug\ParseQuotation.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\public /I..\public\google\ /I..\public\public\ /ZI /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D WIN32_LEAN_AND_MEAN /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt HQStock.pb.cc ParseFile.cpp main.cpp PublicFunc.cpp
+         PublicFunc.cpp
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\publicfunc.cpp(11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         main.cpp
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\main.cpp(363): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\main.cpp(404): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\main.cpp(418): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\main.cpp(532): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\main.cpp(592): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         ParseFile.cpp
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\parsefile.cpp(90): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         HQStock.pb.cc
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\io\coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\io\coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(1505): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(1522): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(1539): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(1811): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(1873): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(1905): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(1922): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(1939): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2449): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2466): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2594): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2604): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2614): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2709): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2734): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2749): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2759): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2769): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2945): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(2955): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(3005): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(3016): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(3027): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(3123): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(3149): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(3165): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(3176): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(3187): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(3365): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(3376): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4560): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4577): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4594): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4656): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4673): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4711): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4721): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4731): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4756): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4766): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4786): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4797): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4808): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4834): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(4845): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5383): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5400): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5507): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5524): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5562): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5572): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5612): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5622): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5642): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5653): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5694): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(5705): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6227): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6244): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6261): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6314): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6324): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6334): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6359): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6370): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6381): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6848): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6865): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6882): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6935): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6945): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6955): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6980): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(6991): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7002): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7579): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7596): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7613): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7630): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7677): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7707): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7724): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7741): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7758): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7775): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7792): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7830): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7840): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7850): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7860): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7880): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7896): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7906): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7916): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7926): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7936): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7946): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7966): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7977): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7988): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(7999): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8020): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8038): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8049): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8060): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8071): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8082): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8093): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8714): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8731): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8836): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8853): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8906): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8916): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8957): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8967): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(8992): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9003): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9046): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9057): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9637): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9654): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9671): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9688): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9705): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9722): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9739): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9792): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9802): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9812): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9822): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9832): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9842): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9852): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9877): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9888): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9899): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9910): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9921): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9932): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(9943): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(10465): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(10527): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(10565): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(10590): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(10610): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(10636): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11180): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11197): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11214): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11231): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11278): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11295): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11312): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11359): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11397): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11407): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11417): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11427): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11447): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11457): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11467): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11487): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11507): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11518): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11529): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11540): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11561): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11572): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11583): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(11604): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12208): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12225): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12255): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12377): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12430): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12440): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12456): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12501): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12526): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12537): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12555): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(12601): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13211): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13228): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13258): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13380): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13433): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13443): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13459): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13504): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13529): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13540): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13558): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(13604): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14275): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14292): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14309): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14326): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14343): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14360): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14377): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14409): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14426): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14489): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14499): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14509): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14519): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14529): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14539): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14549): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14564): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14574): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14609): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14620): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14631): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14642): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14653): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14664): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14675): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14691): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(14702): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15384): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15401): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15431): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15536): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15656): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15699): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15709): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15725): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15766): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15812): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15837): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15848): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15866): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15909): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(15957): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(16669): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(16686): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(16986): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(17029): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(17039): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(17145): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(17170): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(17181): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\hqstock.pb.cc(17289): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\wire_format_lite_inl.h(413): note: 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint32> *)”的引用
+     1>d:\microsoft visual studio 14.0\vc\include\xutility(2230): error C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+         d:\microsoft visual studio 14.0\vc\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\repeated_field.h(842): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=google::protobuf::int64 [],
+                     Element=google::protobuf::int64,
+                     _InIt=const google::protobuf::int64 []
+                 ]
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\repeated_field.h(841): note: 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\repeated_field.h(834): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\repeated_field.h(834): note: 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\repeated_field.h(833): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\repeated_field.h(828): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\repeated_field.h(827): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\repeated_field.h(814): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\repeated_field.h(631): note: 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”时
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\wire_format_lite_inl.h(276): note: 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”的引用
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\wire_format_lite_inl.h(256): note: 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::int64>”的引用
+         d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\public\google\protobuf\wire_format_lite_inl.h(311): note: 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::int64> *)”的引用
+         正在生成代码...
+     1>d:\vsproject\uhq_svn\trunk\sources\tools\parsequotation\parsequotation\parsefile.cpp(131): warning C4715: “ParseFile::ReadLn”: 不是所有的控件路径都返回值
+     1>已完成生成项目“D:\VSProject\UHQ_SVN\trunk\Sources\tools\ParseQuotation\ParseQuotation\ParseQuotation.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.72
